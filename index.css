@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 12px;
+    align-items: center;
+    font-size:27px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-rows : repeat(3,10vw);
+    grid-template-columns : repeat(3,10vw);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+
+.box{
+    border: 2px solid black;
+    font-size: 7vw;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box:hover{    
+    color: black;
+}
+
+.gameInfo{
+    padding: 0 30px;
+}
+
+.imgBox img{
+    width: 300px;
+    visibility: hidden;
+}
+
+.bt{
+    border-top: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.br{
+    border-right: 0;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+.info{
+    font-size: 2vw;
+    margin: 0 60px;
+}
+
+#reset{
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 30px 56px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: white;
+    color: black;
+}
